@@ -38,7 +38,7 @@ namespace DBinit
             if(e.nErrCode == 0)
             {
                 scon.Open();
-                string result = axKHOpenAPI1.GetCodeListByMarket("10");
+                string result = axKHOpenAPI1.GetCodeListByMarket("0");
                 string[] companys = result.Split(';');
                 foreach (string s in companys)
                 {
